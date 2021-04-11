@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Disease Detector</string>
+    <string name="logo_name">DD</string>
+    <string name="slogan">THE CARE YOU WANT</string>
+    <string name="powered">POWERED BY ANDROID</string>
+    <string name="dashboard_top">Find Your Doc</string>
+
+
+    //Titles
+    <string name="first_slider_title">Need a Doctor?</string>
+    <string name="sec_slider_title">Book Appointment</string>
+    <string name="third_slider_title">Meet Your Doctor</string>
+    <string name="fourth_slider_title">Predict Disease With Our Bot</string>
+
+
+    //Description
+    <string name="first_slider_desc">Search doctors using the app and find the best doctors around you</string>
+    <string name="sec_slider_desc">Check schedules of the doctors,pick an open slot and make an appointment with your desired doctor</string>
+    <string name="third_slider_desc"> At the appointed time, sit tight and meet your doctor face to face</string>
+    <string name="fourth_slider_desc">In hurry? We have a solution for you. Use our chatbot service to predict your disease and get your relavent doctors recommendation</string>
+
+    //Button
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="lets_start">Lets Start</string>
+    <string name="expand_all">Expand</string>
+
+
+    //Titles
+    <string name="search_text">Search....</string>
+    <string name="bone">orthopedist</string>
+    <string name="cardiologist">Cardiologists</string>
+    <string name="neurologist">Neurologists</string>
+    <string name="destist">Dentist</string>
+    <string name="profile">Profile</string>
+    <string name="eye">Ophthalmologists</string>
+    <string name="organ">Gastroenterologists</string>
+    <string name="gyn">Gynecologists</string>
+    <string name="allergy">Immunologists</string>
+    <string name="home">Home</string>
+    <string name="cate">Category</string>
+    <string name="search">Search</string>
+    <string name="dd_bot">Disease Detector</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="msg">Messages</string>
+    <string name="best_doctors">Best In Town</string>
+    <string name="recently_viewed">Most Viewed</string>
+    <string name="view_all">View All</string>
+    <string name="categories">Categories</string>
+    <string name="best_doctors_desc">Here we have some of the best doctors that will guide you fight with your disease</string>
+</resources>

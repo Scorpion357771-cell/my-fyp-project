@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "DiseaseDetector">Category</string>
+    <string-array name="categories">
+        <item>Select Category</item>
+        <item>Neurologist</item>
+        <item>Dentist</item>
+        <item>Ophthalmologist</item>
+        <item>Gastroenterologist</item>
+        <item>Cardiologist</item>
+        <item>Gynecologist</item>
+        <item>Immunologist</item>
+        <item>Orthopedist</item>
+    </string-array>
+</resources>

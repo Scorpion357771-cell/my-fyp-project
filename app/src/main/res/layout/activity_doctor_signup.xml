@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:onClick="callDocLogin"
+        android:padding="15dp"
+        android:src="@drawable/back_icon"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/baloo_regular"
+        android:text="Doctor's Signup"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/doc_fullname"
+        android:layout_width="336dp"
+        android:layout_height="46dp"
+        android:hint="Full Name"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/doc_Age"
+        android:layout_width="99dp"
+        android:layout_height="41dp"
+        android:hint="Age"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doc_fullname"
+        app:layout_constraintVertical_bias="0.046"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/doc_phone"
+        android:layout_width="229dp"
+        android:layout_height="41dp"
+        android:hint="Phone"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toEndOf="@+id/doc_Age"
+        app:layout_constraintTop_toBottomOf="@+id/doc_fullname"
+        app:layout_constraintVertical_bias="0.046"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/doc_edu"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:hint="Institute of Education"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doc_phone"
+        app:layout_constraintVertical_bias="0.034"
+        app:layout_constraintWidth_percent=".8" />
+
+
+    <Spinner
+        android:id="@+id/cate_spinner"
+        android:layout_width="342dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doc_edu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:onClick="callDocLogin"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:text="Already a member? Login Now"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/comfortaa_regular"
+        android:text="Need Help?"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doc_pass" />
+
+    <EditText
+        android:id="@+id/doc_pass"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:password="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doc_qualcode"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <EditText
+        android:id="@+id/doc_email"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:hint="CODE"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doc_qualcode"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <EditText
+        android:id="@+id/doc_qualcode"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cate_spinner"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/doc_signup"
+        android:layout_width="292dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/button_bg"
+        android:text="SIGNUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/doc_pass" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

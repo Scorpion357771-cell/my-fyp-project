@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "799846353414",
+    "project_id": "projectapp-2696d",
+    "storage_bucket": "projectapp-2696d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799846353414:android:dc31fb25b9ece2ca249187",
+        "android_client_info": {
+          "package_name": "com.fyp.diseasedetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799846353414-fnamj0qvthnb52ho5khdjbhrh0raob8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-q4R9lxguaFJxkb3xgnwHtVolJnZZspQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799846353414-fnamj0qvthnb52ho5khdjbhrh0raob8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799846353414:android:b9fdb739a1ac2492249187",
+        "android_client_info": {
+          "package_name": "com.fyp.diseasedetectorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799846353414-0rtkl2qns8c0k27qk6e141copv36a0l1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fyp.diseasedetectorapp",
+            "certificate_hash": "42b8582ab5524030586429598e3a6fe293a057e6"
+          }
+        },
+        {
+          "client_id": "799846353414-fnamj0qvthnb52ho5khdjbhrh0raob8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-q4R9lxguaFJxkb3xgnwHtVolJnZZspQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799846353414-fnamj0qvthnb52ho5khdjbhrh0raob8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
